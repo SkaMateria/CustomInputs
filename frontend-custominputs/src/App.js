@@ -1,3 +1,29 @@
+import React from 'react';
+import './styles/App.css';
+
+class App extends React.Component {
+	constructor(){
+		super()
+		this.state = {
+		}
+	}
+
+	render(){
+		return (
+			<div>
+				<h1>HELLO!</h1>
+			</div>
+		);
+	}
+}
+
+export default App;
+
+
+
+
+
+
 // import React from 'react';
 // import logo from './logo.svg';
 // import './styles/App.css';
@@ -24,25 +50,3 @@
 // }
 
 // export default App;
-
-import React from 'react';
-import './styles/App.css';
-import WorkBench from './containers/WorkBench';
-
-class App extends React.Component {
-	constructor(){
-		super()
-		this.state = {
-		}
-	}
-
-	render(){
-		return (
-			<div>
-				<h1>HELLO!</h1>
-			</div>
-		);
-	}
-}
-
-export default App;
